@@ -1,0 +1,65 @@
+/* PieChartComponent.css */
+
+/* Style for the pie chart button */
+.pie-chart-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 9px;
+  background-color: #0F67B1;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.pie-chart-button:hover {
+  background-color: #0F67B1; /* Darker shade for hover effect */
+}
+
+/* Container for the pie chart */
+.pie-chart-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  margin: 20px; /* Optional: Add margin around the chart */
+}
+
+/* Style for the legend */
+.legend-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Individual legend item */
+.legend-item {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  font-size: 12px; /* Smaller font size for legend text */
+  margin-top: -90px;
+}
+
+/* Color box for legend */
+.legend-color-box {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  border-radius: 2px; /* Slightly rounded corners for color box */
+}
+
+/* Add this CSS to PieChartComponent.css */
+
+/* Custom tooltip styles */
+.custom-tooltip {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 5px; /* Smaller padding for compactness */
+  font-size: 12px; /* Smaller font size */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
