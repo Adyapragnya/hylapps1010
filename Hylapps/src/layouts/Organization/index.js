@@ -122,7 +122,7 @@ function Organization() {
               className={showViewAlert ? "ni ni-fat-add" : "ni ni-single-copy-04"} // Conditionally change the icon
               sx={{ mr: 1 }}
             />
-            {showViewAlert ? "Create Alert" : "View Saved Alerts"}
+            {showViewAlert ? "Create Organization" : "View Saved Organizations"}
           </Button>
         </Grid>
       </Grid>
