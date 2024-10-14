@@ -644,7 +644,7 @@ async function checkAndUpdateVesselData() {
 }
 
 
-setInterval(checkAndUpdateVesselData, 1000 * 60 * 240); 
+setInterval(checkAndUpdateVesselData, 1000 * 60 * 360); 
 
 
 
